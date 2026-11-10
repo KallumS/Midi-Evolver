@@ -17,6 +17,8 @@ Explorer, or insert it straight onto the track.
 
 ---
 
+**In Ableton Live:** `ableton/` has Midi Evolver as a Max for Live MIDI effect. See [`ableton/README.md`](ableton/README.md).
+
 ## Install
 
 **With ReaPack** (recommended): *Extensions → ReaPack → Import repositories…*,

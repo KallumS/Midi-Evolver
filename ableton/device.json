@@ -1,0 +1,31 @@
+{
+  "name": "Midi Evolver",
+  "slug": "MidiEvolver",
+  "kind": "midi",
+  "template": "jsfx_midi",
+  "width": 260,
+  "hello": "Show Window opens Midi Evolver's own window.",
+  "device": {
+    "main": "Midi Evolver.jsfx"
+  },
+  "files": {
+    "Midi Evolver.jsfx": "../Midi Evolver.jsfx"
+  },
+  "buttons": [
+    [
+      "Insert the Take",
+      "insertTake"
+    ]
+  ],
+  "scripts": [
+    "kit/runtime/jsfx.js",
+    "kit/gfx.js",
+    "kit/live.js",
+    "actions.js",
+    "kit/jsfx_device.js"
+  ],
+  "window": [
+    860,
+    900
+  ]
+}
