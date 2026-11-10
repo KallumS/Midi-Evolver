@@ -32,7 +32,7 @@ Everything Midi Evolver saves in REAPER (its @serialize) is saved with the Live 
 ableton/device.json` writes the `.amxd`, the `.maxpat` and the script bundle
 `MidiEvolver.js`. The bundle is Middaw's EEL2 runtime, `Midi Evolver.jsfx` from the repository root, the shared window (`ableton/kit/jsfx_device.js`, `gfx.js`) and `ableton/actions.js`, the helper's part. See `ableton/kit/VENDORED.md`.
 
-`node --test ableton/tests/test_device.js` runs the device on a pretend Max and Live: the window draws and answers clicks all over it, notes go through and end, a held chord grows, the take goes on a new track from the strip and from the window's own Insert (answered through the helper's mailbox, with the window seeing the helper running), and the state is saved and comes back. `node ableton/kit/test/shot.js ableton/MidiEvolver.js 860 900 out.png` draws the window.
+`node --test ableton/tests/test_device.js` runs the device on a pretend Max and Live: the window draws and answers clicks all over it, notes go through and end, a held chord grows, the take goes on a new track from the strip and from the window's own Insert (answered through the helper's mailbox, with the window seeing the helper running), and the state is saved and comes back. `node ableton/window.js` redraws the picture above from the device's own drawing code (it needs Playwright's Chromium).
 
 ## Limits
 
