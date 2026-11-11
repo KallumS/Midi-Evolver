@@ -5,6 +5,7 @@ const test = require('node:test');
 const assert = require('node:assert');
 const path = require('node:path');
 const suite = require('../kit/test/jsfx_suite.js');
+require('../kit/test/palette_suite.js')();
 
 const { device } = suite({ bundle: path.join(__dirname, '..', 'MidiEvolver.js'), name: 'Midi Evolver', window: [860, 780] });
 
